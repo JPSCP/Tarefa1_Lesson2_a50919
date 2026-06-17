@@ -3541,9 +3541,9 @@ GameObject:
   - component: {fileID: 4137056043344660383}
   - component: {fileID: 2737158704685761668}
   - component: {fileID: 685436040095304482}
-  - component: {fileID: 2718448364809225597}
   - component: {fileID: -9180246558711578455}
-  - component: {fileID: 268002707237898148}
+  - component: {fileID: 6129052652741287008}
+  - component: {fileID: 182969375963807475}
   m_Layer: 0
   m_Name: Dog_GermanShepherd_01
   m_TagString: Untagged
@@ -3638,18 +3638,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7.5
---- !u!114 &2718448364809225597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6003918105557186932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 180f7f1e7a9be544db7f43d44a0c5de4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &-9180246558711578455
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3671,7 +3659,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.07291317, y: 1, z: 0.2679114}
   m_Center: {x: 0.0008489132, y: 0, z: 0.03300574}
---- !u!114 &268002707237898148
+--- !u!114 &6129052652741287008
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3680,7 +3668,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 6003918105557186932}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7a0fbb79c261a143b6877266b78d755, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &182969375963807475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6003918105557186932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6075346593611681817
